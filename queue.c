@@ -1,4 +1,5 @@
-
+#include<stdio.h>
+#include<stdlib.h>
 int queue[5];
 int front=-1;
 int rear =-1;
@@ -7,8 +8,6 @@ void enqueue(int item);
 void dequeue();
 void peek();
 void display();
-#include<stdio.h>
-#include<stdlib.h>
 void main()
 {   
     int c,item;
